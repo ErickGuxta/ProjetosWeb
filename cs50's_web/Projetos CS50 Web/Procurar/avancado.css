@@ -1,0 +1,163 @@
+body {
+    background-color: #202124;
+    margin: 0;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: normal;
+}
+
+/* Estilizando a navbar */
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+/* Botão de pesquisa */
+.botao-pesquisar {
+    position: absolute;
+    display: flex;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+}
+
+.botao-pesquisar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul .item1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Imagem do Google */
+.img-google {
+    display: flex;
+    justify-content: start;
+}
+
+.img-google img {
+    height: 24px;
+    width: 74px;
+    margin: 15px;
+}
+
+/* Estilizando o título */
+.titulo1-avancado {
+    color: #f28b82;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.linha {
+    border-bottom: 1px solid #ebebeb;
+}
+
+/* Estilizando a seção de pesquisa */
+.mainsearch {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.titulo2-avancado .titulo-red {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ebebeb;
+}
+
+.linhas-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.texto-esquerda {
+    width: 160px;
+    font-size: 13px;
+    color: #969ba1;
+}
+
+.input-direita input {
+    width: 400px;
+    padding: 5px;
+    font-size: 13px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    color: #bdc1c6;
+}
+
+.descricao-direita {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+/* BOTÃO DE SUBMISSÃO */
+.botao-submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 568px;
+}
+.botao-submit input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background: #8ab4f8;
+    border-radius: 2px;
+    border-color: #8ab4f8;
+    color: #202124;
+
+}
+
+.botao-submit input:hover {
+    background: #a1c2f8;
+} 
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .linhas-input {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-direita input {
+        width: 100%;
+    }
+
+    .descricao-direita {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+
+}
+
+@media (max-width: 320px){
+        .botao-submit{
+            width: 50%;
+        } 
+}
+
+@media (max-width: 375px){
+    .botao-submit{
+        width: 40%;
+    } 
+}
+
+@media (max-width: 425px){
+    .botao-submit{
+        width: 30%;
+    } 
+}

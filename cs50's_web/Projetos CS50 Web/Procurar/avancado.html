@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="avancado.css">
+    <title>Pesquisa Avançada</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+        <div class="img-google">
+            <img src="img/googlelogo_light_color_272x92dp.png">
+        </div>
+        <div class="botao-pesquisar">
+            <ul>
+                <li class="item1"><a href="index.html">Pesquisa</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="titulo1-avancado">Pesquisa avançada</p>
+
+    <div class="linha"></div>
+
+    <div class="mainsearch">
+        <form action="https://www.google.com/search">
+            <div class="titulo2-avancado">
+                <span class="titulo-red">Localizar páginas com...</span>
+            </div>
+            &nbsp;
+            
+            <!-- Campo 1 -->
+            <div class="linhas-input">
+                <div class="texto-esquerda">
+                    <label>todas estas palavras:</label>
+                </div>
+                <div class="input-direita">
+                    <input name="as_q" type="text">
+                </div>
+                <div class="descricao-direita">
+                    <span class="descricao">Digite as palavras importantes: rat terrier tricolor</span>
+                </div>
+            </div>
+
+            <!-- Campo 2 -->
+            <div class="linhas-input">
+                <div class="texto-esquerda">
+                    <label>esta expressão ou frase exata:</label>
+                </div>
+                <div class="input-direita">
+                    <input name="as_epq" type="text">
+                </div>
+                <div class="descricao-direita">
+                    <span class="descricao">Coloque palavras exatas entre aspas: "rat terrier"</span>
+                </div>
+            </div>
+
+            <!-- Campo 3 -->
+            <div class="linhas-input">
+                <div class="texto-esquerda">
+                    <label>qualquer uma destas palavras:</label>
+                </div>
+                <div class="input-direita">
+                    <input name="as_oq" type="text">
+                </div>
+                <div class="descricao-direita">
+                    <span class="descricao">Digite OR entre todas as palavras que você procura: miniatura OR padrão</span>
+                </div>
+            </div>
+
+            <!-- Campo 4 -->
+            <div class="linhas-input">
+                <div class="texto-esquerda">
+                    <label>nenhuma destas palavras:</label>
+                </div>
+                <div class="input-direita">
+                    <input name="as_eq" type="text">
+                </div>
+                <div class="descricao-direita">
+                    <span class="descricao">Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"</span>
+                </div>
+            </div>
+            &nbsp;
+            <div class="botao-submit">
+                <input type="submit"  data-toggle="button" value="Pesquisa Avançada">
+            </div>  
+        </form>
+    </div>
+  </body>
+</html>
