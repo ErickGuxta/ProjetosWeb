@@ -165,10 +165,11 @@ form .entradas {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+
 }
 
 .entradas > input {
-    width: 100%;
+    width: 90%;
     border: none;
     padding: 15px;
     background: #F3EBEB;
