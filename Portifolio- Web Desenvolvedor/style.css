@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: #5361FF;
+    box-sizing: content-box;
+
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-inline: auto;
+    padding-inline: 8rem;
+}
+
+/* nav-logo */
+
+
+.nav-logo a{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 1px;
+    white-space: nowrap; /* Impede a quebra de linha */
+}
+
+/* nav-menu */
+
+.nav-menu .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-list a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+
+/* <!--===== HOME =====--> */
+
+
+.section-home{
+    background-color:#5361FF;
+    height: calc(100vh - 80px); /* Ajusta a altura para não ultrapassar o header */
+    padding-top: 80px; /* Adiciona espaço acima para o header */
+    padding-left: 8rem; /* Alinha com a nav */
+    padding-right: 8rem; /* Alinha com a nav */
+    display: flex;
+
+}
+
+.section-home .home-title{
+    flex: 1; /* Permite que a div do título ocupe espaço */
+    color: aliceblue; /* Cor do texto */
+    align-self: flex-end;
+    line-height: .8;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 180px;
+    text-shadow: 0 20px 25px rgba(0, 0, 0, .5);
+}
+
+
+
+.section-home .img-main{
+    flex: 1; /* Permite que a div da imagem ocupe espaço */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.img-main img{
+    border-radius: 200px;
+}
+
+
+/* <!--===== ABOUT =====--> */
+.section-about{
+    background-color:#53ff9b;
+    height: calc(100vh - 80px); /* Ajusta a altura para não ultrapassar o header (que tem 80px) */
+    padding-top: 80px; /* Adiciona espaço acima para o header */
+    padding-left: 8rem; /* Alinha com a nav */
+    padding-right: 8rem; /* Alinha com a nav */
+}
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.about-title h2{
+    font-size: 30px;
+}
+
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-about{
+    width: 40%;
+
+}
+.img-about img{
+    width: 300px;
+    border-radius: 200px;
+}
+
+.about-me{
+    width: 60%;
+}
+
+/* <!--===== SKILLS =====--> */
+
+.section-skills{
+    background-color:#53ff9b;
+    height: calc(100vh - 80px); /* Ajusta a altura para não ultrapassar o header (que tem 80px) */
+    padding-top: 80px; /* Adiciona espaço acima para o header */
+    padding-left: 8rem; /* Alinha com a nav */
+    padding-right: 8rem; /* Alinha com a nav */
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title h2{
+    font-size: 30px;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill-me{
+    width: 50%;
+}
+
+.img-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.img-skills img{
+    width: 50%;
+    border-radius: 20px;
+}
