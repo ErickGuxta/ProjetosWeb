@@ -65,17 +65,17 @@ nav{
 
 .section-home{
     background-color:#5361FF;
-    height: calc(100vh - 80px); /* Ajusta a altura para não ultrapassar o header */
-    padding-top: 80px; /* Adiciona espaço acima para o header */
-    padding-left: 8rem; /* Alinha com a nav */
-    padding-right: 8rem; /* Alinha com a nav */
+    height: calc(100vh - 80px); 
+    padding-top: 80px; 
+    padding-left: 8rem; 
+    padding-right: 8rem; 
     display: flex;
 
 }
 
 .section-home .home-title{
     flex: 1; /* Permite que a div do título ocupe espaço */
-    color: aliceblue; /* Cor do texto */
+    color: aliceblue; 
     align-self: flex-end;
     line-height: .8;
 }
@@ -89,7 +89,7 @@ h1{
 
 
 .section-home .img-main{
-    flex: 1; /* Permite que a div da imagem ocupe espaço */
+    flex: 1; 
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
 }
@@ -103,9 +103,9 @@ h1{
 .section-about{
     background-color:#53ff9b;
     height: calc(100vh - 80px); /* Ajusta a altura para não ultrapassar o header (que tem 80px) */
-    padding-top: 80px; /* Adiciona espaço acima para o header */
-    padding-left: 8rem; /* Alinha com a nav */
-    padding-right: 8rem; /* Alinha com a nav */
+    padding-top: 80px; 
+    padding-left: 8rem; 
+    padding-right: 8rem;
 }
 
 .about-title{
@@ -145,10 +145,10 @@ h1{
 
 .section-skills{
     background-color:#53ff9b;
-    height: calc(100vh - 80px); /* Ajusta a altura para não ultrapassar o header (que tem 80px) */
-    padding-top: 80px; /* Adiciona espaço acima para o header */
-    padding-left: 8rem; /* Alinha com a nav */
-    padding-right: 8rem; /* Alinha com a nav */
+    height: calc(100vh - 80px); 
+    padding-top: 80px; 
+    padding-left: 8rem; 
+    padding-right: 8rem; 
 }
 
 .section-title{
