@@ -17,7 +17,7 @@ body{
 }
 
 h1, h2, h3 {
-    font-weight: 600; /* Deixe títulos mais destacados */
+    font-weight: 600; 
 }
 section{
     display: grid;
@@ -130,7 +130,7 @@ main{
             text-align: justify;
             font-size: 18px;
         }
-        & .imagem {
+        .imagem {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -138,7 +138,7 @@ main{
 
             
     
-            & img{
+            img{
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 border-radius: 20px;
                 width: 250px;
@@ -160,14 +160,14 @@ main{
 
         }
         
-        & .imagem {
+        .imagem {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
             
     
-            & img{
+            img{
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 border-radius: 20px;
                 width: 250px;
@@ -227,12 +227,12 @@ footer{
         flex-direction: column;
         flex-grow: 1;
     
-        & .imgs-logo img{
+        .imgs-logo img{
             width: 20px;
             margin: 3px;
         }
     
-        & .content-direitos span{
+        .content-direitos span{
             font-size: 12px;
         }
     }
@@ -244,7 +244,7 @@ footer{
     
         padding: 20px;
     
-        & img{
+        img{
             width: 50px;
     
         }
@@ -377,7 +377,7 @@ footer{
         .parte1, .parte2{
             flex-direction: column;
 
-            & .imagem img{
+            .imagem img{
                 width:300px;
     
             }

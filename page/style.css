@@ -1,8 +1,0 @@
-/* Adicionando imagem de fundo ao body */
-body {
-    background-image: url(fundo-preto-e-branco-ondulado_23-2150530908.avif);
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-position: center; /* Centraliza a imagem */
-    background-color: rgba(255, 255, 255, 0.5); /* Adiciona uma cor de fundo branca com 50% de opacidade */
-} 
